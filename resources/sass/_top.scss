@@ -1,4 +1,10 @@
+
 .loginPage {
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(storage/app/public/images/topimage.jpg);
   &_contents {
     height: 80vh;
     display: flex;
@@ -7,6 +13,7 @@
     text-align: center;
     &_title {
       margin-top: 12vh;
+      background-color: #fff;
     }
     &_btn {
       display: block;

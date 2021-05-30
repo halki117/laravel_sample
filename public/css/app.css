@@ -17086,6 +17086,14 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+.loginPage {
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(/images/topimage.jpg?efa7a5ad41cf1686679702eab6378250);
+}
+
 .loginPage_contents {
   height: 80vh;
   display: flex;
@@ -17096,6 +17104,7 @@ readers do not read off random characters that represent icons */
 
 .loginPage_contents_title {
   margin-top: 12vh;
+  background-color: #fff;
 }
 
 .loginPage_contents_btn {
